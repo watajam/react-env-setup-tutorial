@@ -7,7 +7,7 @@ test('テキスト コンポーネントのテスト', () => {
     const inputElement = screen.getByRole('textbox')
     expect(inputElement).toBeInTheDocument()
 })
-test("テキスト入力のテスト mod", async () => {
+test("テキスト入力のテスト mod/", async () => {
     const user = userEvent.setup()
     render(<TextInput />)
     const inputElement = screen.getByRole('textbox')
